@@ -1,0 +1,14 @@
+{
+  "name": "healthapp-backend",
+  "version": "1.0.0",
+  "description": "Backend for mental health assessment application",
+  "main": "index.js",
+  "scripts": {
+    "seed": "node scripts/seedData.js",
+    "test": "node scripts/testQueries.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "mongoose": "^6.13.8"
+  }
+}
